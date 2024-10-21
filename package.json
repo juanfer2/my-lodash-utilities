@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "This library es a lite alternative to lodash",
   "main": "./lib/index.js",
+  "private": false,
   "files": [
     "lib/**/*"
   ],

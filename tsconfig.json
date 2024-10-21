@@ -17,8 +17,8 @@
     "allowSyntheticDefaultImports": true,
     "target": "ES2021",
     "sourceMap": true,
-    "outDir": "./lib",
-    "baseUrl": "./",
+    "outDir": "./lib/",
+    //"baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
@@ -31,5 +31,5 @@
   "include": [
     "src/**/*.ts",
     "test/**/*.ts"
-, "domain/src/interface/three-ds/service-response.interface.ts"  ]
+  ]
 }
