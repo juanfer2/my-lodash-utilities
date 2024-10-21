@@ -1,7 +1,7 @@
 {
-  "name": "typescript-npm-package-template",
-  "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "name": "my-lodash-utilities",
+  "version": "1.0.0",
+  "description": "This library es a lite alternative to lodash",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/juanfer2/my-lodash-utilities.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "Juan Fernando Villadiego Madera",
+    "email": "jfvilladiego7@gmail.com",
+    "url": "https://github.com/juanfer2"
   },
   "engines": {
     "node": ">=12.0"
@@ -43,9 +43,9 @@
     "codecov"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/juanfer2/my-lodash-utilities/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/juanfer2/my-lodash-utilities#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
@@ -69,7 +69,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@ryansonshine/cz-conventional-changelog"
+      "path": "./node_modules/@juanfer2/cz-conventional-changelog"
     }
   },
   "lint-staged": {
